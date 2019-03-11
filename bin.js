@@ -27,7 +27,7 @@ function task(command, args) {
   return combineLatest([exit, stdout, stderr])
 }
 
-const package = require('./package.json')
+const package = require(path.resolve('package.json'))
 
 if (!('copyDependencies' in package)) {
   console.error('missing copyDependencies in package.json')

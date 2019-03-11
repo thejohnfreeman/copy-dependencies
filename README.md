@@ -11,7 +11,7 @@ with a simple configuration that fits into `package.json`.
 ## Install
 
 ```
-yarn add -D copy-dependencies
+yarn add -D @thejohnfreeman/copy-dependencies
 ```
 
 ## Use

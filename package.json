@@ -2,7 +2,9 @@
   "name": "@thejohnfreeman/copy-dependencies",
   "version": "0.1.0",
   "description": "A tool to copy dependencies into your source tree.",
-  "bin": "bin.js",
+  "bin": {
+    "copy-dependencies": "bin.js"
+  },
   "repository": "git@github.com:thejohnfreeman/copy-dependencies.git",
   "author": "John Freeman <jfreeman08@gmail.com>",
   "license": "MIT",

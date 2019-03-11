@@ -1,5 +1,5 @@
 {
-  "name": "copy-dependencies",
+  "name": "@thejohnfreeman/copy-dependencies",
   "version": "0.1.0",
   "description": "A tool to copy dependencies into your source tree.",
   "bin": "bin.js",
@@ -12,5 +12,8 @@
   "dependencies": {
     "rxjs": "^6.4.0",
     "rxjs-stream": "^3.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
